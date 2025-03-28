@@ -1,0 +1,15 @@
+[package]
+name = "Aptos~micro-scholarships-for-underserved-students"
+version = "1.0.0"
+authors = []
+
+[addresses]
+book_marketplace= "0x8759966d7da17c3429703528b0aac2089d05b7ba58052af0730a9cc5d7de17ab"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
